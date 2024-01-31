@@ -6,10 +6,10 @@ spring:
     config:
       server:
         svn:
-          uri: https://172.16.1.30/svn/iCashPro_Product/branches/SBI
+          uri: svn branch url
           default-label: trunk
-          username: mayurm.patil@aurionpro.com
-          password: Rabale@123
+          username: email
+          password: eamil password
           basedir: F:/SVN
           search-paths:
             - /Commons/config/**
