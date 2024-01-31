@@ -1,0 +1,13 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: CONFIG_CLIENT
+  config:
+    import: configserver:http://localhost:8888
+    name: commons
+
+
+#  profiles:
+#    active: default
